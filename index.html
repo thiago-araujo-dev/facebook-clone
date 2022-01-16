@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&family=Bebas+Neue&display=swap"
+        rel="stylesheet">
+    <link href="css/stye.css" rel="stylesheet">
+    <title>Login Facebook</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Facebook</h1>
+            </div>
+            <!--div logo-->
+            <form class="form-login">
+                <div class="form-element">
+                    <label>Email ou telefone</label>
+                    <input type="email" placeholder="Digite seu email ou telefone">
+                </div>
+                <!--form element-->
+                <div class="form-element">
+                    <label>Senha</label>
+                    <input type="password" placeholder="Digite sua senha">
+                </div>
+                <!--form element-->
+                <div class="form-element">
+                    <button type="submit" name="acao">Enviar</button>
+
+                </div>
+                <!--form element-->
+            </form>
+            <!--div form-login-->
+        </div>
+        <!--div container-->
+    </header>
+    <section class="welcome">
+        <div class="container">
+            <div>
+                <p>O Facebook ajuda você a se conectar e compartilhar com as pessoas
+                    que fazem parte da sua vida.</p>
+                <img src="images/welcome.png">
+            </div>
+            <div class="welcome-form">
+                <h2>Abra uma Conta</h2>
+                <p>É gratuito e sempre será.</p>
+                <form>
+                    <div class="form-element double">
+
+                        <input type="text" placeholder="Nome" required>
+
+                        <input type="text" placeholder="Sobrenome" required>
+                    </div>
+                    <!--form element-->
+                    <div class="form-element">
+
+                        <input type="text" placeholder="Celular ou email" required>
+                    </div>
+                    <!--form element-->
+                    <div class="form-element">
+                        <input type="password" placeholder="Nova senha" required>
+                    </div>
+                    <!--form element-->
+                    <div class="form-element">
+                        <h4>Data de Nascimento</h4>
+                        <input type="datetime-local" id="meeting-time" name="meeting-time" value="2022-01-15T21:40"
+                            min="2018-06-07T00:00" max="2018-06-14T00:00" required>
+                    </div>
+                    <div class="form-element double form-radio">
+                        <div>
+                            <input type="radio" name="genre" id="male" required><label for="male">Masculino</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="genre" id="female" required><label for="female">Feminino</label>
+                        </div>
+                    </div>
+                    <!--form element-->
+                    <div class="form-element form-submit">
+                        <button type="submit" name="acao" >Cadastre-se</button>
+    
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; Facebook - Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
